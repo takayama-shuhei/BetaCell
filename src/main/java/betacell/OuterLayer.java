@@ -22,7 +22,7 @@ public class OuterLayer {
 
 	/**外部層内にある全部の顆粒を動かす**/
 	public void update(int t) {
-        List<Granule> deadGranules = new ArrayList<>();
+        List<Granule> deadGranules = new ArrayList<Granule>();
 		for (Granule granule : granules) {
 			int check = 1;
 			check = checkField(granule);//自分のいる領域をチェックして

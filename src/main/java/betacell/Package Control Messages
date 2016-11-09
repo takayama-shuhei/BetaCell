@@ -1,0 +1,46 @@
+Package Control Messages
+========================
+
+LaTeXTools
+----------
+
+  LaTeXTools Plugin version 3.12.6 (2016-11-06) changelog:
+  
+  Features:
+  - Improved the error reports of the preview feature
+  - The system check now also searches for packages used by the preview feature
+
+  LaTeXTools Plugin version 3.12.5 (2016-11-03) changelog:
+  
+  Bugfixes:
+  - Fix an error which disabled cwl completion (#910)
+  - Improved the resolution if math-live preview (#901)
+  - Improved the feedback if preview fails
+
+  LaTeXTools Plugin version 3.12.4 (2016-11-02) changelog:
+  
+  Bugfixes:
+  - Fix an error where Sumatra was being run hidden (#900)
+  - Fix an issue which caused the Script builder to not run on OS X / macOS (#894)
+  - Fix an error where copy_on_build setting was not actually being honored (#893)
+
+  LaTeXTools Plugin version 3.12.3 (2016-11-01) changelog:
+  
+  Features:
+  - Phantoms now use magick command if its available
+  - Improved detection of Ghostscript
+  
+  Bugfixes:
+  - Fixed a typo which caused convert not to properly work with included images
+  - Fix extra \ introduced by CWL completions (#888)
+
+  LaTeXTools Plugin version 3.12.2 (2016-11-01) changelog:
+  
+  Bugfixes:
+  - Fixed a bug, which disabled forward sync
+
+  LaTeXTools Plugin version 3.12.1 (2016-11-01) changelog:
+  
+  Features:
+  - Added a command to check your system to have all required programs installed
+  - Improved the sanity of calling external commands

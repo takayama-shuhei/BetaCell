@@ -2,6 +2,7 @@ group 'betacell'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'eclipse'
 
 sourceCompatibility = 1.5
 
